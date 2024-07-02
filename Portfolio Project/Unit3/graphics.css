@@ -1,0 +1,57 @@
+body{
+    background-color:rgb(201, 200, 200);
+}
+.title{
+    text-align:center;
+    font-size:35px;
+    width:100%;
+    font-family:arial;
+    background-color:rgb(231, 227, 227);
+    border: 2px solid black;
+}
+.mainImage{
+    width:70%;
+    height:40%;
+    border: 1px solid black;
+}
+.announcer{
+    border: 2px solid black;
+    background-color:rgb(231, 227, 227);
+    font-family:arial;
+    padding:5px;
+    text-align:center;
+}
+.buttons{
+    container-type:flex;
+    flex-direction: horizontal;
+    justify-content:space-around;
+    text-align:center;
+    width:100%;
+}
+.Button{
+    justify-content:space-around;
+    width:200px;
+    height:40px;
+    margin-left:10%;
+    margin-right:10%;
+    background-color:blanchedalmond;
+}
+.clickCounter{
+    color:black;
+    font-size:15px;
+    text-align:center;
+    font-family:arial;
+    visibility:hidden;
+    border: 2px solid black;
+    background-color:rgb(231, 227, 227);
+}
+.schoolBus{
+    width:14%
+}
+.side{
+    width:13%
+}
+.apple{
+    width:14%;
+    transform:translateY(-250%);
+}
