@@ -1,0 +1,268 @@
+html {
+    height: 200%;
+    width: 100%;
+}
+body{
+    margin:0%;
+    padding:0%;
+}
+
+#background{
+    background-color:#430D5C;
+    border-left: #75209C dashed 10px;
+    border-right: #75209C dashed 10px;
+    margin-right:0%;
+    margin-left:0%;
+    height:100%;
+}
+#headshot{
+    width:70%;
+    height:20%;
+    border-radius:0 0 50% 50%;
+    margin-left:15%;
+    margin-right:15%;
+    padding:0%;
+    border-bottom:white solid 10px;
+    border-right:white solid 10px;
+    border-left:white solid 10px;
+}
+.headshotSurrounding{
+    width:100%;
+    height:20%;
+    border-radius: 0 0 50% 50%;
+    background-color:grey;
+}
+.header1{
+    font-size:45px;
+    color:white;
+    font-family: sans-serif;
+    margin-left:5%;
+}
+.center-text1{
+    margin-left:5%;
+    color:white;
+    font-family: sans-serif;
+    font-size:25px;
+}
+@keyframes typing{
+    from {width:0%;height:10%}
+    to {width:70%;height:10%}
+}
+.center-text2{
+    color:white;
+    font-family: sans-serif;
+    padding:0%;
+    margin-top:0%;
+    margin-bottom:0%;
+    font-size:25px;
+}
+@keyframes slide-right{
+    0% {transform:translateX(-50%)}
+}
+.divide{
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+    animation-name:slide-right;
+    animation-duration:3s;
+    animation-iteration-count:1;
+    display:flex;
+}
+.AboutMeImage{
+    width:100%;
+    height:50%;
+    display:block;
+    padding-top:50%;
+    padding-left:40%;
+    padding-right:5%;
+    margin:0%;
+}
+.centerHeader{
+    text-align:center;
+    color:white;
+    font-size:45px;
+    font-family:sans-serif;
+    padding-bottom:10%;
+
+}
+.technicalSkills{
+    container:flex;
+    width:70%;
+    flex-direction:horizontal;
+    animation-name:typing;
+    animation-duration:5s;
+    animation-iteration-count:1;
+    margin-left:15%;
+    margin-right:15%;
+    margin-top: 0%;
+    text-align:center;
+    overflow:hidden;
+    white-space:nowrap;
+}
+@keyframes bannerExpand{
+    from{width:90%;border-bottom:10px solid white; border-left:10px solid white; border-right:10px solid white;}
+    to{width:92%; border-bottom:none;border-left:none;border-right:none;}
+}
+@keyframes Contract{
+    from{width:92%; border-bottom:none;border-left:none;border-right:none;}
+    to{width:90%;border-bottom:10px solid white; border-left:10px solid white; border-right:10px solid white;}
+}
+#navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    height:10%;
+    background-color: #75209C;
+    margin:0%;
+    padding:0%;
+    display:flex;
+    flex-direction:horizontal;
+    justify-content:space-around;
+}
+.navButton{
+    background-color:#430D5C;
+    border:none;
+    border-left: #75209C solid 2px;
+    border-right: #75209C solid 2px;
+    width:20%;
+    text-align:center;
+    color:white;
+    font-family: sans-serif;
+    font-size:30px;
+}
+.innerPortfolio{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    height:33.333%;
+    background-color:#430D5C;
+    padding-left:0%;
+    margin-right:0%;
+    margin-left:0%;
+    padding-right:0%;
+}
+.portfolioButtons{
+    margin:0%;
+    width:25%;
+    height:100%;
+    border-radius:0%;
+    border:1px white solid;
+    background-size:contain;
+}
+#outerPortfolio{
+    height:400px;
+    width:100%;
+    padding-bottom:20%;
+    margin-right:0%;
+    margin-left:0%;
+}
+#popUp{
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position:fixed;
+    display:none;
+}
+#alert{
+    background-color:#430D5C; 
+    border-radius:40px;
+    height:300px;
+    width:60%;
+    border: 6px white solid;
+}
+#alertContainer{
+    height:30%;
+    width:100%;
+    justify-content:center;
+    display:flex;
+}
+#alertTitle{
+    color:white;
+    font-family:arial;
+    font-size: 30px;
+    text-align:left;
+    margin-left:5%;
+}
+.contactInfo{
+    color:white;
+    font-family:Arial;
+    font-size: 20px;
+    margin-left:5%;
+    text-align:left;
+}
+#alertDismiss{
+    background-color:white;
+    font:arial;
+    font-size:25px;
+    color:black;
+    width:20%;
+    height:15%;
+    border-radius: 10px;
+    border:none;
+    margin-left:5%;
+}
+#exit{
+    background-color:white;
+    font:arial;
+    font-size:25px;
+    color:black;
+    width:20%;
+    height:15%;
+    border-radius: 10px;
+    border:none;
+    margin-left:5%;
+}
+#one{
+    background-image: url('http://gamescrafters.berkeley.edu/instructions/i/tictactoe/tictactoe.svg');
+    background-size: contain;
+    width:362px;
+}
+#two{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kmines_Expert_Game_with_Numbers_1-8.png/560px-Kmines_Expert_Game_with_Numbers_1-8.png');
+    background-size: contain;
+    width:362px;
+}
+.contact{
+    margin-left:5%;
+    color:white;
+    margin-bottom:2%;
+}
+#three{
+    background-image: url("https://static-prod.adweek.com/wp-content/uploads/2021/10/buzzfeed-pub-hotlist-2021-652x342.jpg.webp");
+    background-size:contain;
+    width:362px;
+}
+#four{
+    background-image: url("https://media.licdn.com/dms/image/C4D12AQF-9ISccuEy_A/article-cover_image-shrink_423_752/0/1548317560382?e=1725494400&v=beta&t=bb-O7PDYD7s-2_ySXdBLocknXxiy66Iz-w2fiw3PvHM");
+    background-size:contain;
+    width:362px;
+}
+#one:hover{
+    transform:scale(1.2);
+}
+#two:hover{
+    transform:scale(1.2);
+}
+#three:hover{
+    transform:scale(1.2);
+}
+#four:hover{
+    transform:scale(1.2);
+}
+#sources{
+    width:300px;
+    height:100px;
+    color:white;
+    background-color: #75209C;
+    border:none;
+    border-radius:50px;
+    margin-bottom:10%;
+    font-family:arial;
+    font-size:30px;
+}
+.contact{
+    font-family:arial;
+    color:white;
+    font-size:20px;
+}
