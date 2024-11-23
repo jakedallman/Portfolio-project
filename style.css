@@ -16,11 +16,11 @@ body{
     height:100%;
 }
 #headshot{
-    width:70%;
-    height:20%;
+    height:25%;
+    width:52.5%;
     border-radius:0 0 50% 50%;
-    margin-left:15%;
-    margin-right:15%;
+    margin-left:25%;
+    margin-right:25%;
     padding:0%;
     border-bottom:white solid 10px;
     border-right:white solid 10px;
@@ -220,7 +220,7 @@ body{
 }
 #two{
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kmines_Expert_Game_with_Numbers_1-8.png/560px-Kmines_Expert_Game_with_Numbers_1-8.png');
-    background-size: contain;
+    background-size: cover;
     width:362px;
 }
 .contact{
@@ -230,12 +230,12 @@ body{
 }
 #three{
     background-image: url("https://static-prod.adweek.com/wp-content/uploads/2021/10/buzzfeed-pub-hotlist-2021-652x342.jpg.webp");
-    background-size:contain;
+    background-size:cover;
     width:362px;
 }
 #four{
-    background-image: url("https://media.licdn.com/dms/image/C4D12AQF-9ISccuEy_A/article-cover_image-shrink_423_752/0/1548317560382?e=1725494400&v=beta&t=bb-O7PDYD7s-2_ySXdBLocknXxiy66Iz-w2fiw3PvHM");
-    background-size:contain;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/2010_Thomas_Saf-T-Liner_C2.jpg/400px-2010_Thomas_Saf-T-Liner_C2.jpg");
+    background-size:cover;
     width:362px;
 }
 #one:hover{
