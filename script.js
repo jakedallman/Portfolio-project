@@ -1,4 +1,3 @@
-
 let banner = document.getElementById("headshot");
 let about = document.getElementById("about");
 let tech = document.getElementById("tech");
@@ -20,11 +19,11 @@ let exit = document.getElementById("exit");
 banner.addEventListener("mouseover", function()
 {
     headshot.style.border="none";
-    headshot.style.width="71.5%";
+    headshot.style.width="52.5%";
 })
 banner.addEventListener("mouseout", function()
 {
-    headshot.style.width="70%";
+    headshot.style.width="50%";
     headshot.style.borderLeft="white solid 10px";
     headshot.style.borderRight="white solid 10px";
     headshot.style.borderBottom="white solid 10px";
